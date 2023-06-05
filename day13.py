@@ -5,10 +5,10 @@ print()
 max = float(input('Max. Possible Score: '))
 print()
 score = float(input('Your score: '))
-per = round((max / score)*10, 2)
+per = round((score / max)*100, 2)
 print(per)
 if per == 90 :
-  print('You got a',per+'%', 'which is a A+' )
+  print('You got a',str(per) + '%', 'which is a A+' )
 else :
   print('try again')
 
